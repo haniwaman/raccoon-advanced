@@ -1,0 +1,60 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.my-btn {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 7px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ccc;
+	vertical-align: top;
+	margin-right: 8px;
+}
+
+.my-btn:last-child {
+	margin-right: 0;
+}
+
+.my-btn:hover {
+	background: #fafafa;
+	border-color: #999;
+	color: #23282d;
+}
+
+.my-img-icon {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: text-top;
+	margin: 0 6px 0 0;
+}
+
+.my-img-icon::before {
+	content: "\f128";
+	font: normal 18px/1 dashicons;
+	speak: none;
+	color: #82878c;
+}
+
+.my-img-show {
+	margin-top: 10px;
+}
+
+.my-img-show img {
+	width: 300px;
+}
